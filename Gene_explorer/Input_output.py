@@ -13,7 +13,9 @@ class InputOutputManager:
         if dialog.ShowModal() == wx.ID_OK:
             self.selected_query_path = dialog.GetPath()
             self.parent_frame.query_seq_text.SetValue(self.selected_query_path)
-            self.check_enable_blast_button()  # Check and enable BLASTn button
+            self.parent_frame.selected_query_path = self.selected_query_path  # Ensure parent frame is updated
+            print(f"Selected Query Path: {self.selected_query_path}")  # Debug print
+            self.check_enable_blast_button()
 
         dialog.Destroy()
 
@@ -23,11 +25,12 @@ class InputOutputManager:
         if dialog.ShowModal() == wx.ID_OK:
             self.selected_cry_genes_path = dialog.GetPath()
             self.parent_frame.cry_genes_text.SetValue(self.selected_cry_genes_path)
-            self.check_enable_blast_button()  # Check and enable BLASTn button
+            self.parent_frame.selected_cry_genes_path = self.selected_cry_genes_path  # Ensure parent frame is updated
+            print(f"Selected Cry Genes Path: {self.selected_cry_genes_path}")  # Debug print
+            self.check_enable_blast_button()
 
         dialog.Destroy()
 
     def check_enable_blast_button(self):
-        #Enable the BLASTn button if both query and Cry genes directory are selected.
         if self.selected_query_path and self.selected_cry_genes_path:
             self.parent_frame.run_blast_button.Enable()

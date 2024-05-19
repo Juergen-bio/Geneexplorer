@@ -1,4 +1,3 @@
-# main.py
 import wx
 import wx.html2 as webview
 from Blastn import run_blast
@@ -112,6 +111,8 @@ class GeneExplorerApp(wx.Frame):
         self.io_manager.on_select_cry_genes(event)
 
     def on_run_blast(self, event):
+        print(f"Query Path: {self.selected_query_path}")  # Debug print
+        print(f"Cry Genes Path: {self.selected_cry_genes_path}")  # Debug print
         if not self.selected_query_path:
             wx.MessageBox("Please select the query sequence file.", "Error", wx.OK | wx.ICON_ERROR)
             return

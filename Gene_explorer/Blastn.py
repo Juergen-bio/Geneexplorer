@@ -1,4 +1,3 @@
-# blastn.py
 import os
 import wx
 import threading
@@ -30,7 +29,9 @@ def run_blast(selected_query_path, selected_cry_genes_path, evalue_threshold, wo
                     for seq_record in query_sequences:
                         query_gene = str(seq_record.seq)
 
-                        result_handle = NCBIWWW.qblast("blastn", "nr", query_gene, expect=evalue_threshold, word_size=word_size, gapcosts=(gap_open, gap_extend))
+                        # Correctly format gapcosts as a string
+                        gapcosts = f"{gap_open} {gap_extend}"
+                        result_handle = NCBIWWW.qblast("blastn", "nr", query_gene, expect=evalue_threshold, word_size=word_size, gapcosts=gapcosts)
                         blast_records = NCBIXML.parse(result_handle)
 
                         cry_gene_found = False
