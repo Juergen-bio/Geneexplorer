@@ -130,7 +130,6 @@ class GeneExplorerApp(wx.Frame):
         except Exception as e:
             result_handler.handle_error(str(e))
 
-
 if __name__ == "__main__":
     app = wx.App()
     frame = GeneExplorerApp()

@@ -1,4 +1,5 @@
 import wx
+import os
 
 class InputOutputManager:
     def __init__(self, parent_frame):

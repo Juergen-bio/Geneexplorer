@@ -2,7 +2,6 @@ import wx
 import matplotlib.pyplot as plt
 from io import BytesIO
 
-
 class ResultHandler:
     def __init__(self, result_text, status_label, progress_bar, run_blast_button):
         self.result_text = result_text
