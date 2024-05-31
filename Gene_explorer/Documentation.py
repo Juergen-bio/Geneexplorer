@@ -8,7 +8,7 @@ def get_cry_gene_information_and_sources():
     cry_gene_info = """
     <html>
     <body>
-    <h2>Cry Gene Information:</h2>
+    <h2>Cry genes Information:</h2>
     <p>Cry genes encode proteins belonging to the Cry toxin family, commonly found in Bacillus thuringiensis.
     These toxins exhibit insecticidal activity against various insect pests, particularly lepidopterans (butterflies and moths).
     The specific insecticidal properties and target insects vary depending on the Cry gene type.</p>
