@@ -24,7 +24,7 @@ class GeneExplorerApp(wx.Frame):
         # Cry Gene Information Panel
         info_panel = wx.Panel(notebook)
         self.create_info_ui(info_panel)
-        notebook.AddPage(info_panel, "Cry Gene Information")
+        notebook.AddPage(info_panel, "Documentation")
 
         sizer = wx.BoxSizer(wx.VERTICAL)
         sizer.Add(notebook, 1, wx.EXPAND)
