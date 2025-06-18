@@ -25,6 +25,19 @@ The assessment involved the following key steps:
 5.  **Biomarker Detection & Classification:** Based on the alignment results and applied thresholds, samples were classified as either GMO (positive for Cry gene presence) or non-GMO.
 6.  **Custom Tool Development:** A custom tool, including a **Graphical User Interface (GUI) developed with wxPython**, was implemented to streamline the analysis process, facilitating data input and output interpretation.
 
+### Custom Tool & User Interface
+
+A custom tool, including a Graphical User Interface (GUI) developed with wxPython, was implemented to streamline the analysis process, facilitating data input and output interpretation.
+
+![Screenshot of GUI Main Window](images/gui_main_window.png)
+*Figure 1: Main window of the GMO analysis tool's GUI.*
+
+![Screenshot of GUI Results Output](images/gui_results_output.png)
+*Figure 2: Example of analysis results displayed in the GUI.*
+
+![Screenshot of GUI Main Window](images/gui_documentationguide.png)
+*Figure 1: Main window of the GMO analysis tool's GUI.*
+
 ## Tools & Technologies Used
 
 * **Programming Language:** Python
