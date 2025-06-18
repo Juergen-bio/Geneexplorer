@@ -35,9 +35,11 @@ A custom tool, including a Graphical User Interface (GUI) developed with wxPytho
 *Figure 1: Main window of the GMO analysis tool's GUI.*
 
 
+
 ![Screenshot of GUI Results Output](images/gui_results_output.png)
 
 *Figure 2: Example of a positive analysis results displayed in the GUI.*
+
 
 
 ![Screenshot of GUI Main Window](images/gui_documentationguide.png)
