@@ -31,12 +31,17 @@ The assessment involved the following key steps:
 A custom tool, including a Graphical User Interface (GUI) developed with wxPython, was implemented to streamline the analysis process, facilitating data input and output interpretation.
 
 ![Screenshot of GUI Main Window](images/gui_main_window.png)
+
 *Figure 1: Main window of the GMO analysis tool's GUI.*
 
+
 ![Screenshot of GUI Results Output](images/gui_results_output.png)
+
 *Figure 2: Example of a positive analysis results displayed in the GUI.*
 
+
 ![Screenshot of GUI Main Window](images/gui_documentationguide.png)
+
 *Figure 1: A documentation window to help non-biologists understand the output.*
 
 ## Tools & Technologies Used
