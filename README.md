@@ -34,7 +34,10 @@ The assessment involved the following key steps:
 * **Data Formats:** FASTA
 
 ## Project Structure
-'''├── code/
+
+```
+.
+├── code/
 │   ├── main.py                # Main script for GMO analysis
 │   ├── gui.py                 # wxPython GUI implementation
 │   ├── analysis_functions.py  # Core bioinformatics analysis functions
@@ -44,4 +47,6 @@ The assessment involved the following key steps:
 │   ├── sample_genomes/        # Directory for sample genome files
 │   └── results/               # Directory for analysis output
 ├── documentation.docx         # Original project documentation
-└── README.md                  # This file'''
+└── README.md                  # This file
+```
+
