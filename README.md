@@ -8,7 +8,7 @@ Here's a high-level overview of the bioinformatics analysis workflow for GMO det
 
 ## Project Overview
 
-This project focuses on the **bioinformatics-driven assessment of Genetically Modified Organism (GMO) status** in maize and soybean samples collected from Kenya. The primary objective was to accurately classify samples as GMO or non-GMO by detecting the presence of specific Cry genes, which are commonly engineered into these crops for pest resistance. This work involved comprehensive genomic data analysis and the development of a custom bioinformatics pipeline.
+This project focuses on the **bioinformatics-driven assessment of Genetically Modified Organism (GMO) status** in maize(a stable food in most African households) and soybean samples collected from Kenya. The primary objective was to accurately classify samples as GMO or non-GMO by detecting the presence of specific Cry genes, which are commonly engineered into these crops for pest resistance. This work involved comprehensive genomic data analysis and the development of a custom bioinformatics pipeline.
 
 ## Problem Statement
 
